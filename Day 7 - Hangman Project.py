@@ -77,8 +77,7 @@ while not endgame and  lives > 0:
             display[i] = guess
     if guess not in chosen_word:
         lives -= 1
-    display1 = " ".join(display)
-    print(display1)
+    print(" ".join(display))
     print(stages[lives])
 
     if "_" not in display:
